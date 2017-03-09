@@ -29,14 +29,24 @@ $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 580px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 20px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
+$global-padding: 20px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
+$lyft-hot-pink: #ff00BF;
+$lyft-magenta: #C600BB;
+$lyft-mulberry: #352384;
+$lyft-purple: #4901B8;
+$lyft-charcoal: #333347;
+$lyft-slate: #474C62;
+$lyft-dove: #728099;
+$lyft-stone: #BFC7D9;
+$lyft-moon: #D8DCE6;
+$lyft-bone: #f3f3f5;
 
 // 2. Grid
 // -------
@@ -55,7 +65,7 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
-$body-font-family: Helvetica, Arial, sans-serif;
+$body-font-family: 'Gotham-Book',Gotham,'San Francisco Display','Helvetica Neue',Montserrat,Helvetica,Arial,'Roboto',sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.3;
@@ -106,12 +116,12 @@ $button-font-size: (
   default: 16px,
   large: 20px,
 );
-$button-color: $white;
-$button-color-alt: $medium-gray;
+$button-color: $lyft-magenta;
+$button-color-alt: $white;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $primary-color;
-$button-border: 2px solid $button-background;
+$button-background: $lyft-magenta;
+$button-border: none;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
 
